@@ -1,4 +1,15 @@
 /* Enter Your Custom CSS Here */
+/* Mobile menu toggle: same icons as original wrethinking.org - hamburger when closed, X when open */
+.elementor-menu-toggle .eicon-close {
+	display: none;
+}
+.elementor-menu-toggle[aria-expanded="true"] .eicon-menu-bar {
+	display: none;
+}
+.elementor-menu-toggle[aria-expanded="true"] .eicon-close {
+	display: inline-block;
+}
+
 body, html {
     padding: 0;
     margin: 0;
