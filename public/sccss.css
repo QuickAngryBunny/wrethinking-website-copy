@@ -1,0 +1,432 @@
+/* Enter Your Custom CSS Here */
+body, html {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background: #fff;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+* {
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+}
+a, button, .btn {
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+}
+a:hover {
+    text-decoration: none;
+        outline: 0;
+        text-decoration: none;
+}
+a:active {
+  outline: 0;
+  text-decoration: none;
+}
+a:focus {
+  outline: 0;
+  text-decoration: none;
+}
+.main_header .header_nav_menu nav ul > li+li {
+    padding-left: 35px;
+}
+.elementor-10 .elementor-element.elementor-element-7ce36838 .elementor-nav-menu--main .elementor-item.elementor-item-active {
+    color: #F84345;
+    font-weight: bold;
+}
+.global_btn .elementor-widget-container .elementor-button-wrapper a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    width: 176px;
+    height: 50px;
+}
+.banner_btn .elementor-widget-container .elementor-button-wrapper a {
+    margin: 0 auto;
+}
+.site_footer .menu-footer-menu-container ul {
+    column-count: 2;
+}
+.site_footer .menu-footer-menu-container ul li {
+    line-height: normal;
+}
+.site_footer .menu-footer-menu-container ul li+li {
+    margin-top: 15px;
+}
+.site_footer .menu-footer-menu-container ul li a {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    line-height: 20px;
+    border-bottom: 1px solid transparent;
+}
+.site_footer .menu-footer-menu-container ul li.current_page_item a {
+    border-bottom: 1px solid #fff;
+    font-weight: bold;
+}
+.site_footer .menu-footer-menu-container ul li a:hover {
+    border-bottom: 1px solid #fff;
+}
+.site_footer .elementor-widget-image-box .elementor-image-box-title a:hover {
+    color: #F84345;
+}
+.site_footer .elementor-form-fields-wrapper {
+    flex-wrap: nowrap;
+}
+.site_footer .elementor-form-fields-wrapper .elementor-field-type-email {
+    padding-right: 0 !important;
+}
+.site_footer .elementor-form-fields-wrapper .elementor-field-type-email input {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    border-radius: 3px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 50px;
+}
+.site_footer .elementor-form-fields-wrapper .e-form__buttons {
+    padding-left: 0 !important;
+    width: 50%;
+}
+.site_footer .elementor-form-fields-wrapper .e-form__buttons button {
+    padding: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: #F84345;
+    height: 50px;
+}
+.site_footer .elementor-form-fields-wrapper .e-form__buttons button:hover {
+    background: #2A2A2A;
+}
+.site_footer .elementor-widget-form .elementor-message, .elementor-19 .elementor-element.elementor-element-7ef12ee .elementor-message {
+    color: #61CE70;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.site_footer .footer_newsletter {
+    display: flex;
+}
+.site_footer .footer_newsletter_form .wpcf7-form .wpcf7-form-control-wrap {
+	  width: 100%;
+}
+.site_footer .footer_newsletter_form .wpcf7-form input {
+    width: 100%;
+    border: 1px solid transparent;
+    background: #fff;
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 3px;
+    height: 50px;
+}
+.site_footer .footer_newsletter_form .wpcf7-form input::placeholder {
+    color:#000;
+}
+.site_footer .footer_newsletter_form .wpcf7-form .wpcf7-submit {
+    margin: 0 auto;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    background-color: #F84345;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.1607843137254902);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 0px;
+    color: #fff;
+    font-weight: 500;
+    border: 0px;
+    max-width: 100px;
+    outline: inherit;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+}
+.site_footer .footer_newsletter_form .wpcf7-form .wpcf7-submit:hover {
+    background: #2A2A2A;
+}
+.site_footer .footer_newsletter_form .wpcf7-not-valid-tip, .site_footer .footer_newsletter_form .wpcf7 form.sent .wpcf7-response-output, .site_footer .footer_newsletter_form .wpcf7 form.invalid .wpcf7-response-output {
+    color: #dc3232;
+    font-size: 14px;
+    line-height: normal;
+    font-family: "Poppins", Sans-serif;
+    margin: 15px 0 0 0;
+}
+.site_footer .footer_newsletter_form .wpcf7-not-valid-tip {
+    margin-top: 3px;
+}
+.site_footer .footer_newsletter_form .wpcf7 form.sent .wpcf7-response-output, .site_footer .footer_newsletter_form .wpcf7 form.invalid .wpcf7-response-output {
+    color: #fff;
+}
+.site_footer .footer_newsletter_form div.wpcf7 .ajax-loader {
+    position: absolute;
+    bottom: -18px;
+    right: 0;
+}
+.collaborate_contact_form .wpcf7-form .col_50 input, .collaborate_contact_form .wpcf7-form textarea {
+    width: 100%;
+    border: 1px solid transparent;
+    background: #F1F1F1;
+    color: #7A7A7A;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px;
+    border-radius: 3px;
+}
+.collaborate_contact_form .wpcf7-form .col_50 input::placeholder, .collaborate_contact_form .wpcf7-form textarea::placeholder{
+    color: #A7A7A7;
+}
+.collaborate_contact_form .wpcf7-form .recaptcha {
+	  margin: 0 auto 20px auto;
+}
+.collaborate_contact_form .wpcf7 .ajax-loader {
+	  position: absolute;
+}
+.elementor-19 .elementor-element.elementor-element-7ef12ee .elementor-message {
+    text-align: center;
+    margin-top: 20px;
+}
+.san_diego_content .elementor-widget-container > p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.our_team .team_box .elementor-image-box-description a, .elementor-19 .elementor-element.elementor-element-7ef12ee #collaborate_contact_form .elementor-field-group.elementor-column.elementor-col-100.e-form__buttons button {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    background-color: #F84345;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.1607843137254902);
+    padding: 15px 30px 15px 30px;
+    display: block;
+    max-width: 165px;
+    border-radius: 3px;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+}
+.our_team .team_box .elementor-image-box-img a img, .our_team .team_box .elementor-image-box-description a {
+    margin: 0 auto;
+}
+.our_team .team_box .elementor-image-box-description a {
+    margin-top: 23px;
+}
+.our_team .team_box .elementor-image-box-img a img {
+    margin-bottom: 15px;
+}
+.elementor-19 .elementor-element.elementor-element-7ef12ee #collaborate_contact_form .elementor-field-group.elementor-column.elementor-col-100.e-form__buttons button {
+    max-width: 186px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.our_team .team_box .elementor-image-box-description a:hover, .elementor-19 .elementor-element.elementor-element-7ef12ee #collaborate_contact_form .elementor-field-group.elementor-column.elementor-col-100.e-form__buttons button:hover {
+    background: #2A2A2A;
+}
+.collaborate_contact_form .wpcf7-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.collaborate_contact_form .wpcf7-form .col_50 input, .collaborate_contact_form .wpcf7-form textarea {
+    width: 100%;
+    border: 1px solid transparent;
+    background: #F1F1F1;
+    color: #7A7A7A;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px;
+    border-radius: 3px;
+}
+.collaborate_contact_form .wpcf7-form .col_50 input::placeholder, .collaborate_contact_form .wpcf7-form textarea::placeholder{
+    color:#A7A7A7;
+}
+.collaborate_contact_form .wpcf7-form .col_50 input:focus, .collaborate_contact_form .wpcf7-form textarea:focus {
+    border: 1px solid #818a91;
+}
+.collaborate_contact_form .wpcf7-form .col_100.submit_btn {
+    margin-bottom: 0px;
+    text-align: center;
+}
+.collaborate_contact_form .wpcf7-form select {
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: #F1F1F1;
+    color: #a5a5a5;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px;
+    border-radius: 3px;
+}
+.collaborate_contact_form .wpcf7-form .col_100.submit_btn .wpcf7-submit {
+    max-width: 186px;
+    margin: 0 auto;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    background-color: #F84345;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.1607843137254902);
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 600;
+    border: 0px;
+    outline: inherit;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+}
+.collaborate_contact_form .wpcf7-form .col_100.submit_btn .wpcf7-submit:hover {
+    background: #2A2A2A;
+}
+.collaborate_contact_form .wpcf7-form .col_50, .collaborate_contact_form .wpcf7-form .col_100 {
+    padding-right: calc( 30px/2 );
+    padding-left: calc( 30px/2 );
+    margin-bottom: 30px;
+}
+.collaborate_contact_form .wpcf7 form.invalid .wpcf7-response-output {
+    border-color: #F84345;
+    text-align: center;
+    color: #2a2a2a;
+}
+.collaborate_contact_form .wpcf7 form.sent .wpcf7-response-output, .collaborate_contact_form .wpcf7 form.invalid .wpcf7-response-output {
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+}
+.collaborate_contact_form .wpcf7-not-valid-tip {
+    font-size: 15px;
+}
+
+@media (min-width: 768px) {
+    section.elementor-section .collaborate_section.elementor-inner-section.elementor-inner-section {
+        background-position: -10% 100%;
+    }
+    section.elementor-section .connect_section.elementor-inner-section.elementor-inner-section {
+        background-position: 115% 100%;
+    }
+    .more_info_btn {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        max-width: 304px;
+    }
+    .our_team .elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper {
+        align-items: center;
+    }
+    .collaborate_contact_form .wpcf7-form .col_50 {
+        width: 50%;
+    }
+    .collaborate_contact_form .wpcf7-form .col_100, .collaborate_contact_form .wpcf7-form .organisation {
+        width: 100%;
+    }
+    .our_team .executive_boxes .team_box .elementor-image-box-description {
+        min-height: 48px;
+        margin-bottom: 80px;
+    }
+    .our_team .executive_boxes .team_box .elementor-image-box-description a {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+@media screen and (max-width: 1370px) and (min-width: 992px) {
+    .elementor-11 .elementor-element.elementor-element-069cc03.our_mission_sec {
+        padding: 60px 0;
+    }
+    .elementor-11 .elementor-element.elementor-element-c9b2ac3.working_collaboratively_sec {
+        padding: 100px 0;
+    }
+    .elementor-11 .elementor-element.elementor-element-a29ead0 {
+        width: 59%;
+    }
+}
+/*
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .our_team .elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .our_team .elementor-widget-image-box .elementor-image-box-content {
+        margin-top: 15px;
+    }
+    .elementor-16 .elementor-element.elementor-element-e45351e.elementor-position-left.team_box .elementor-image-box-img {
+        margin-right: 0;
+    }
+    .elementor-16 .elementor-element.elementor-position-left.team_box .elementor-image-box-img img, .our_team .team_box .elementor-image-box-description a {
+        margin: 0 auto;
+    }
+    .our_team .team_box .elementor-image-box-description a {
+        margin-top: 20px;
+    }
+}
+*/
+@media (max-width: 1024px) {
+    .site_footer .menu-footer-menu-container ul li a {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .site_footer .menu-footer-menu-container ul li+li {
+        margin-top: 10px;
+    }
+    .main_header .header_nav_menu nav ul > li+li {
+        padding-left: 0px;
+    }
+    .elementor-10 header .elementor-element.elementor-element-7ce36838 .elementor-nav-menu__container.elementor-nav-menu--dropdown{
+        margin-top: 31px !important;
+    }
+    .site_footer .elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 767px) {
+    .elementor-10 header .elementor-element.elementor-element-7ce36838 .elementor-nav-menu__container.elementor-nav-menu--dropdown{
+        margin-top: 26px !important;
+    }
+    .elementor-19 .elementor-element.elementor-element-7ef12ee .elementor-message {
+        margin-top: 40px;
+    }
+    .site_footer .menu-footer-menu-container ul {
+        column-count: 1;
+        text-align: center;
+    }
+    .site_footer .elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper {
+        flex-wrap: nowrap; 
+        display: flex;
+        width: 270px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .collaborate_contact_form .wpcf7-form .col_50, .collaborate_contact_form .wpcf7-form .col_100 {
+        padding-right: 0;
+        padding-left: 0;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}
